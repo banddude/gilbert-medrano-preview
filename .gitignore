@@ -1,3 +1,5 @@
 .DS_Store
 *.mp4
 source-assets/
+
+!public/media/hero-reel.mp4

@@ -1,13 +1,13 @@
 const mediaBase = './public/media/';
 
 const heroProjects = [
-  { title: '87XLUE — I’ll See What’s Up', type: 'Music', src: '87xlue-01.jpg' },
-  { title: 'PANDA', type: 'Music', src: 'panda-02.jpg' },
-  { title: 'Harlay — ShoeStrings', type: 'Music', src: 'shoestrings-03.jpg' },
-  { title: 'Harlay — No Puedo', type: 'Music', src: 'no-puedo-02.jpg' },
   { title: 'Dead City — Jimothy', type: 'Music', src: 'dead-city-03.jpg' },
   { title: 'Scalp Shacklerot', type: 'Music', src: 'scalp-shacklerot-01.jpg' },
-  { title: 'Protect My Peace', type: 'Music', src: 'protect-my-peace-02.jpg' },
+  { title: 'Harlay - Panda', type: 'Music', src: 'panda-02.jpg' },
+  { title: 'Harlay — ShoeStrings', type: 'Music', src: 'shoestrings-03.jpg' },
+  { title: 'Harlay - No Puedo Parar pt2', type: 'Music', src: 'no-puedo-02.jpg' },
+  { title: 'Harlay - Protect My Peace', type: 'Music', src: 'protect-my-peace-02.jpg' },
+  { title: '87XLUE — I’ll See What’s Up', type: 'Music', src: '87xlue-01.jpg' },
 ];
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -15,7 +15,7 @@ const heroReel = document.querySelector('#hero-reel');
 const heroTitle = document.querySelector('#hero-title');
 const heroType = document.querySelector('#hero-type');
 const heroIndex = document.querySelector('#hero-index');
-const heroSegmentEnds = [1.45, 2.90, 4.35, 5.80, 7.25, 8.70, 11.55];
+const heroSegmentEnds = [1.45, 2.90, 4.35, 5.80, 7.25, 10.10, 11.55];
 let lastHeroIndex = -1;
 
 function syncHeroMeta() {
